@@ -1,2 +1,2 @@
-# reclarey.github.io
+# rclarey.github.io
 Personal GitHub pages site
