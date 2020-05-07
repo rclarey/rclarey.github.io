@@ -1,89 +1,136 @@
-<html><head>
-  <meta charset="UTF-8">
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
   <title>Russell Clarey</title>
+  <meta name="description" content="Hi, I'm Russell">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1">
+  <meta property="og:title" content="russellclarey.com">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://russellclarey.com">
+  <meta property="og:image" content="https://avatars1.githubusercontent.com/u/15111129?v=3&amp;s=400">
+  <meta property="profile:first_name" content="Russell">
+  <meta property="profile:last_name" content="Clarey">
   <link rel="icon" type="image/png" href="./favicon.png">
-  <meta name="description" content="Hello. I'm Russell. I'm a third year software engineering student at the University of Waterloo. In my sparetime I like to code, go hiking, and watch good shows.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="./favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <meta name="theme-color" content="#2E3440">
   <script type="application/ld+json">
     {
     "@context": "http://schema.org",
     "@type": "Person",
     "email": "mailto:r.e.clarey@gmail.com",
     "image": "https://avatars1.githubusercontent.com/u/15111129?v=3&s=400",
-    "jobTitle": "Web Developer",
+    "jobTitle": "Software Engineer",
     "name": "Russell Clarey",
     "additionalName": "Edward",
-    "url": "http://russellclarey.com/"
+    "url": "https://russellclarey.com/"
     }
   </script>
-  <script async="" src="//www.google-analytics.com/analytics.js"></script><script>
-                                                                           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                                                                             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                                                                                                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                                                                           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-                                                                           ga('create', 'UA-71054815-1', 'auto');
-                                                                           ga('send', 'pageview');
-  </script>
 </head>
-
 <body>
-
-  <div class="container">
-    <div class="star-container">
-      <h1>Russell Clarey</h1>
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </div>
-
-    <input id="about" class="tab" type="radio" name="menu" checked="">
-    <label for="about">About</label>
-    <input id="projects" class="tab" type="radio" name="menu">
-    <label for="projects">Projects</label>
-    <input id="links" class="tab" type="radio" name="menu">
-    <label for="links">Links</label>
-    <input id="resume" class="tab" type="radio" name="menu">
-    <label for="resume">Resume</label>
-
-    <div class="tab__content">
-      <h3>About me...</h3>
-      <p>
-        I'm a fourth year software engineering student at the University of Waterloo. In my sparetime I like to code, go hiking, and watch good shows.
-      </p>
-      <p>
-        I'm currently looking for intern opportunities for the fall of 2019 (September - December).
-      </p>
-      <p>
-        You can <a href="./Russell-Clarey-Resume.pdf">view my resume</a>, or reach me by <a href="mailto:r.e.clarey@gmail.com">email</a>.
-      </p>
-    </div>
-
-    <div class="tab__content">
-      <h3>Projects</h3>
-      <div class="project">
-        <h4>simple-ot</h4>
-        <p>A simple, hand-written operational transform library that uses the domain-agnostic GOTO control algorithm.</p>
-          <p class="small-text">TypeScript</p>
-          <p><a href="https://github.com/rclarey/simple-ot" target="_blank">Source code</a></p>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__group">
+        <h1 class="header__name">Russell Clarey</h1>
       </div>
-      <div class="project">
-        <h4>CloudCode</h4>
-        <p>Collaborative coding in real time, using my own hand-written <a href="https://github.com/rclarey/simple-ot">operational transform library</a>.
-          <p class="small-text">React&ensp;&ensp;Socket.io&ensp;&ensp;Node.js&ensp;&ensp;MongoDB</p>
-          <p><a href="https://github.com/rclarey/cloudcode" target="_blank">Source code</a></p>
+
+      <nav class="header__group">
+        <a class="header__link" href="#about">About</a>
+        <a class="header__link" href="#projects">Projects</a>
+        <a class="header__link" href="#contact">Contact</a>
+        <a class="header__link" href="https://www.linkedin.com/in/rclarey/">LinkedIn</a>
+        <a class="header__link" href="https://github.com/rclarey">GitHub</a>
+        <button class="header__theme">
+          <img src="./sun.svg" />
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section section--about" id="about">
+    <div class="section__content">
+      <div>
+        <h2 class="section__title">Hi, I'm Russell</h2>
+        <p>I'm a recent software engineering graduate from the University of Waterloo.</p>
+      </div>
+      <div>
+        <img class="face" src="./face.png" />
       </div>
     </div>
+    <svg id="projects" class="divider wiggly-1" viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1440 21.21V120H0V21.21C120 35.07 240 42 360 42s240-6.93 360-20.79c88.328-8.794 154.574-14.333 198.738-16.618A3120.562 3120.562 0 0 1 1080 .42c120 0 240 6.93 360 20.79z">
+      </path>
+    </svg>
+  </section>
+  <section class="section section--projects">
+    <div class="section__content">
+      <h2 class="section__title">Projects</h2>
+      <div class="project">
+        <div class="project__body">
+          <div class="project__desc">
+            <h3 class="project__title">cloudcode</h3>
+            <p>A site to easily share code snippets, and collaboratively edit them in real-time.</p>
+            <p>Makes use of my operational transform library, simple-ot.</p>
+            <div class="project__tech-list">
+              <span class="project__tech">TypeScript</span>
+              <span class="project__tech">deno</span>
+            </div>
+            <div class="button-list">
+              <a class="button live" href="https://russellclarey.com/cloudcode/">Live site</a>
+              <a class="button" href="https://github.com/rclarey/cloudcode/">Source code</a>
+            </div>
+          </div>
+          <div>
+            <img class="project__img" src="./cloudcode.png" />
+          </div>
+        </div>
+      </div>
 
-    <div class="tab__content">
-      <h3>Links</h3>
-      <ul>
-        <li><a href="https://github.com/rclarey">github.com/rclarey</a></li>
-        <li><a href="https://ca.linkedin.com/in/rclarey">linkedin.com/in/rclarey</a></li>
-        <li><a href="mailto:r.e.clarey@gmail.com">r.e.clarey@gmail.com</a></li>
-      </ul>
+      <div class="project">
+        <div class="project__body">
+          <div>
+            <img class="project__img" src="./simple-ot.png" />
+          </div>
+          <div class="project__desc">
+            <h3 class="project__title">simple-ot</h3>
+            <p>An operational transform library that implements a domain-agnostic control algorithm, and a sample implementation for character-wise operations.</p>
+            <div class="project__tech-list">
+              <span class="project__tech">TypeScript</span>
+            </div>
+            <div class="button-list">
+              <a class="button" href="https://github.com/rclarey/simple-ot/">Source code</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+
+    <svg id="contact" class="divider wiggly-2" viewBox="0 0 1920 240" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0c62.028 23.301 207.726 31.062 355.345 10.956 194.93-26.548 329.274 58.551 412.36 95.275 113.991 50.379 161.026 36.177 242.491 47.604 81.464 11.428 80.28 30.32 167.409 35.339 99.802 5.746 258.527-51.115 385.457-10.565 156.954 50.136 300.814-6.06 356.938 1.225V240H0V0z">
+      </path>
+    </svg>
+  </section>
+  <section class="section section--contact">
+    <div class="section__content">
+      <h2 class="section__title">Contact</h2>
+      <p>If you want to get in touch with me you can <a href="mailto:r.e.clarey@gmail.com">email me</a>, otherwise you can get to know me better through these links.</p>
+      <div class="button-list">
+        <a class="button" href="https://www.linkedin.com/in/rclarey/">LinkedIn</a>
+        <a class="button" href="https://github.com/rclarey/">GitHub</a>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1920 250" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1920 250H0V0s126.707 78.536 349.975 80.05c177.852 1.203 362.805-63.874 553.803-63.874 290.517 0 383.458 57.712 603.992 61.408 220.527 3.696 278.059-61.408 412.23-17.239" class="wiggly-3">
+      </path>
+      <path d="M1920 144s-467.917 116.857-1027.243-17.294C369.986 1.322 0 45.578 0 45.578V250h1920V144z" class="wiggly-4">
+      </path>
+      <path d="M0 195.553s208.547-75.581 701.325-20.768c376.707 41.908 520.834-67.962 722.545-67.962 222.926 0 311.553 83.523 496.129 86.394V250H0v-54.447z" class="wiggly-5">
+      </path>
+    </svg>
+  </section>
   <script src="./scripts.js"></script>
-</body></html>
+</body>
+</html>
