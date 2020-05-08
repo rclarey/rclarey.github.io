@@ -279,4 +279,8 @@ p {
     padding-top: 32px;
     display: block;
   }
+
+  .section > .section__content {
+    padding: 80px 24px; 
+  }
 }
