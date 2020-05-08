@@ -265,3 +265,18 @@ p {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 829px) {
+  .header, .project__img {
+    display: none;
+  }
+
+  .project__body > div + div {
+    margin-left: 0;
+  }
+
+  .section--about > .section__content {
+    padding-top: 32px;
+    display: block;
+  }
+}
