@@ -131,7 +131,7 @@ p {
   margin: 0 auto;
 }
 
-.section.section--projects * {
+.section.section--projects {
   color: #ECEFF4;
   background-color: #292E39;
 }
