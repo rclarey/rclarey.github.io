@@ -13,7 +13,7 @@ body {
 
 body.light {
   background-color: #F8F9FB;
-  color: #4C566A;
+  color: #2E3440;
 }
 
 h1, h2, h3 {
@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 .light h1, .light h2, .light h3 {
-  color: #4C566A;
+  color: #2E3440;
 }
 
 a {
@@ -36,7 +36,7 @@ p {
 }
 
 .light p {
-  color: #4C566A;
+  color: #2E3440;
 }
 
 .header {
@@ -73,7 +73,7 @@ p {
 }
 
 .light .header__link {
-  color: #4C566A;
+  color: #2E3440;
 }
 
 .header__group {
@@ -136,6 +136,11 @@ p {
   background-color: #292E39;
 }
 
+.light .section.section--projects {
+  color: #2E3440;
+  background-color: #D8DEE9;
+}
+
 .project {
   margin: 80px 0;
 }
@@ -190,16 +195,18 @@ p {
 }
 
 .light .button {
-  color: #4C566A;
-}
-
-.section--projects .button {
-  color: #ECEFF4;
+  color: #2E3440;
+  border: 1px solid #2E3440;
 }
 
 .button:hover {
   color: #88C0D0;
   border-color: #88C0D0;
+}
+
+.light .button:hover {
+  color: #5E81AC;
+  border-color: #5E81AC;
 }
 
 .button.live {
@@ -213,12 +220,25 @@ p {
   background-color: #5E81AC;
 }
 
+.light .button.live {
+  color: #ECEFF4;
+  background-color: #5E81AC;
+}
+
+.light .button.live:hover {
+  background-color: #445d7b;
+}
+
 .divider {
   margin-bottom: -7px;
 }
 
 .wiggly-1 {
   fill: #292E39;
+}
+
+.light .wiggly-1 {
+  fill: #D8DEE9;
 }
 
 .wiggly-2 {
@@ -234,7 +254,7 @@ p {
 }
 
 .light .wiggly-3 {
-  fill: #F0F0F4;
+  fill: #D8DEE9;
 }
 
 .wiggly-4 {
@@ -242,7 +262,7 @@ p {
 }
 
 .light .wiggly-4 {
-  fill: #F4F6F9;
+  fill: #e4e8ef;
 }
 
 .wiggly-5 {
@@ -250,7 +270,7 @@ p {
 }
 
 .light .wiggly-5 {
-  fill: #FBFBFC;
+  fill: #eef3fb;
 }
 
 @media (min-width: 1248px) {
