@@ -9,7 +9,7 @@
   <meta property="og:title" content="russellclarey.com">
   <meta property="og:type" content="profile">
   <meta property="og:url" content="https://russellclarey.com">
-  <meta property="og:image" content="https://avatars1.githubusercontent.com/u/15111129?v=3&amp;s=400">
+  <meta property="og:image" content="https://avatars1.githubusercontent.com/u/15111129?v=3&s=400">
   <meta property="profile:first_name" content="Russell">
   <meta property="profile:last_name" content="Clarey">
   <link rel="icon" type="image/png" href="./favicon.png">
@@ -54,20 +54,88 @@
     <div class="section__content">
       <div>
         <h2 class="section__title">Hi, I'm Russell</h2>
-        <p>I'm a recent software engineering graduate from the University of Waterloo.</p>
+        <p>I'm a software engineer living in 🇯🇵</p>
+        <p>I mostly work with React and TypeScript,
+          but recently I've been dabbling with Go. I'm also currently developing a
+          <a href="#torrent">couple libraries</a> for Deno.
+        </p>
+        <p>
+          I am currently working as a frontend engineer at
+          <a href="https://jp.mercari.com/" target="_blank nofollow noopener noreferrer">Mercari</a>.
+        </p>
+        <p>
+          I studied Software Engineering at the University of Waterloo, and graduated in 2020.
+        </p>
       </div>
       <div>
-        <img class="face" src="./face.png" />
+        <img class="face" src="./face.jpeg" />
       </div>
     </div>
-    <svg id="projects" class="divider wiggly-1" viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+    <svg class="divider wiggly-1" viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
       <path d="M1440 21.21V120H0V21.21C120 35.07 240 42 360 42s240-6.93 360-20.79c88.328-8.794 154.574-14.333 198.738-16.618A3120.562 3120.562 0 0 1 1080 .42c120 0 240 6.93 360 20.79z">
       </path>
     </svg>
   </section>
+
+  <div class="anchor-offset" id="projects"></div>
   <section class="section section--projects">
     <div class="section__content">
       <h2 class="section__title">Projects</h2>
+      <div class="anchor-offset" id="torrent"></div>
+      <div class="project">
+        <div class="project__body">
+          <div class="project__desc">
+            <h3 class="project__title">torrent</h3>
+            <p>A work-in-progress BitTorrent client library for Deno.</p>
+            <div class="project__tech-list">
+              <span class="project__tech">TypeScript</span>
+              <span class="project__tech">Deno</span>
+            </div>
+            <div class="button-list">
+              <a class="button" href="https://github.com/rclarey/torrent/">Source code</a>
+            </div>
+          </div>
+          <div>
+            <img class="project__img" src="./torrent.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project__body">
+          <div class="project__desc">
+            <h3 class="project__title">socks5</h3>
+            <p>A SOCKS5 proxy library for Deno which supports proxying both TCP and UDP.</p>
+            <div class="project__tech-list">
+              <span class="project__tech">TypeScript</span>
+              <span class="project__tech">Deno</span>
+            </div>
+            <div class="button-list">
+              <a class="button" href="https://github.com/rclarey/socks5/">Source code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project__body">
+          <div class="project__desc">
+            <h3 class="project__title">send</h3>
+            <p>Easy end-to-end encrypted file sharing with download links that automatically expire.</p>
+            <div class="project__tech-list">
+              <span class="project__tech">TypeScript</span>
+            </div>
+            <div class="button-list">
+              <a class="button live" href="https://send.rclarey.cloud/">Live site</a>
+              <a class="button" href="https://github.com/rclarey/send/">Source code</a>
+            </div>
+          </div>
+          <div>
+            <img class="project__img" src="./send.png" />
+          </div>
+        </div>
+      </div>
+
       <div class="project">
         <div class="project__body">
           <div class="project__desc">
@@ -76,7 +144,7 @@
             <p>Makes use of my operational transform library, simple-ot.</p>
             <div class="project__tech-list">
               <span class="project__tech">TypeScript</span>
-              <span class="project__tech">deno</span>
+              <span class="project__tech">Deno</span>
             </div>
             <div class="button-list">
               <a class="button live" href="https://russellclarey.com/cloudcode/">Live site</a>
@@ -91,9 +159,6 @@
 
       <div class="project">
         <div class="project__body">
-          <div>
-            <img class="project__img" src="./simple-ot.png" />
-          </div>
           <div class="project__desc">
             <h3 class="project__title">simple-ot</h3>
             <p>An operational transform library that implements a domain-agnostic control algorithm, and a sample implementation for character-wise operations.</p>
@@ -104,15 +169,20 @@
               <a class="button" href="https://github.com/rclarey/simple-ot/">Source code</a>
             </div>
           </div>
+          <div>
+            <img class="project__img" src="./simple-ot.png" />
+          </div>
         </div>
       </div>
     </div>
 
-    <svg id="contact" class="divider wiggly-2" viewBox="0 0 1920 240" xmlns="http://www.w3.org/2000/svg">
+    <svg class="divider wiggly-2" viewBox="0 0 1920 240" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0c62.028 23.301 207.726 31.062 355.345 10.956 194.93-26.548 329.274 58.551 412.36 95.275 113.991 50.379 161.026 36.177 242.491 47.604 81.464 11.428 80.28 30.32 167.409 35.339 99.802 5.746 258.527-51.115 385.457-10.565 156.954 50.136 300.814-6.06 356.938 1.225V240H0V0z">
       </path>
     </svg>
   </section>
+
+  <div class="anchor-offset" id="contact"></div>
   <section class="section section--contact">
     <div class="section__content">
       <h2 class="section__title">Contact</h2>

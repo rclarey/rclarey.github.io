@@ -141,6 +141,11 @@ p {
   background-color: #D8DEE9;
 }
 
+.anchor-offset {
+  visibility: hidden;
+  transform: translateY(-80px);
+}
+
 .project {
   margin: 80px 0;
 }
@@ -156,6 +161,10 @@ p {
 
 .project__body > div + div {
   margin-left: 80px;
+}
+
+.project__desc {
+  flex-grow: 1;
 }
 
 .project__img {
