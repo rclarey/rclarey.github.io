@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrussellclarey_com=self.webpackChunkrussellclarey_com||[]).push([[410],{8645:function(e,l,t){t.r(l),t.d(l,{Head:function(){return r}});var n=t(7294);l.default=function(){return n.createElement("main",null,n.createElement("h1",null,"Blog"),n.createElement("div",{className:"short-bio"},n.createElement("p",null,"Nothing here yet, but I plan to write something soon.")))};var r=function(){return n.createElement("title",null,"Blog | Russell Clarey")}}}]);
+//# sourceMappingURL=component---src-pages-blog-tsx-dae5d9f02706e0f4823d.js.map
